@@ -1,0 +1,76 @@
+.one{
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(212, 228, 222);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.one .bir{
+    width: 300px;
+    height: 350px;
+}
+.bir h1{
+    color: rgb(72, 201, 201);
+    width: 250px;
+}
+.bir p{
+    color: rgb(27, 27, 27);
+    width: 300px;
+}
+.buttons button{
+    width: 150px;
+    height: 50px;
+    color: aliceblue;
+    background-color:rgb(72, 201, 201);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.box1{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    left: 20px;
+    border-radius: 10px;
+}
+.box1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.box2{
+    width: 80px;
+    height: 80px;
+    background-color:blueviolet;
+    position: absolute;
+    top: 100px;
+    right:250px;
+    border-radius: 10px;
+}
+.box2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.box3{
+    width: 150px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    border-radius: 10px;
+}
+.box3 img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
